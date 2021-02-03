@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote_container {
+  width: auto;
+  max-width: 700px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba($color: #b3abab, $alpha: 0.3);
+  box-shadow: 0 5px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote_text {
+  font-size: 1.75rem;
+}
+
+.long-quote {
+  font-size: 1rem;
+}
+.fas {
+  font-size: 1rem;
+}
+
+.quote_author {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*Media Query:tablet or smaller*/
+@media screen and (max-width: 1000px) {
+  .quote_container {
+    margin: auto 30px;
+  }
+  .quote_text {
+    font-size: 1.5rem;
+  }
+}
